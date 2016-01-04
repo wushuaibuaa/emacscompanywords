@@ -1,4 +1,4 @@
-# emacscompanywords
+# emacs company mode English words compelete
 
 ## Description
 A lisp file using company-mode to compelete english words.
