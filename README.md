@@ -1,10 +1,10 @@
 # emacs company mode English words compelete
 
 ## Description
-A lisp file using company-mode to compelete english words.
+A lisp file using company-mode to complete english words.
 
 It defines a words constant list by 'defconst'. 
-And define a company backend to compelete English words.
+And define a company backend to complete English words.
 It only using company mode.
 Do not require ispell or orther program.
 
