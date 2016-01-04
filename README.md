@@ -3,8 +3,10 @@
 ## Description
 A lisp file using company-mode to compelete english words.
 
-It defines a words constant lis by defconst. 
+It defines a words constant list by 'defconst'. 
 And define a company backend to compelete English words.
+It only using company mode.
+Do not require ispell or orther program.
 
 ## Useage
 
