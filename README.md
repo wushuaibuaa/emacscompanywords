@@ -16,6 +16,8 @@ Add the below command in your .emacs file to load it.
 
 (load "~/Dropbox/Emacs/company-words")
 
+It will be enabled in all mode.
+
 ## Attached files
 
 English-words.txt: the file includes over 72,000 English words. 
