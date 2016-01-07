@@ -50,7 +50,15 @@
     (sorted t)
     (ignore-case 'keep-prefix)
     ))
+    
+(defun company-en-words-enable ()
+  (interactive)
+  (add-to-list 'company-backends 'company-en-words))
 
-(add-to-list 'company-backends 'company-en-words)
+(defun company-en-words-disable ()
+  (interactive)
+  (setq company-backends (remove 'company-en-words company-backends)))
+
+;;(add-to-list 'company-backends 'company-en-words)
 
 (provide 'company-en-words)
