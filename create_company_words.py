@@ -29,6 +29,14 @@ f.write("(case command \n (interactive (company-begin-backend 'company-en-words)
 
 f.write("\n\n")
 
-f.write("(add-to-list 'company-backends 'company-en-words)")
+f.write("(defun company-en-words-enable () \n   (interactive) \n   (add-to-list 'company-backends 'company-en-words))")
+
+f.write("\n\n")
+
+f.write("(defun company-en-words-disable () \n   (interactive) \n   (setq company-backends (remove 'company-en-words company-backends)))")
+
+f.write("\n\n")
+
+f.write(";;(add-to-list 'company-backends 'company-en-words)")
 
 f.close()
