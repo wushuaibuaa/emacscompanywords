@@ -16,7 +16,13 @@ Add the below command in your .emacs file to load it.
 
 (load "~/Dropbox/Emacs/company-words")
 
-It will be enabled in all mode.
+Then using M-x company-en-words-enable RET, to enable English word company.
+
+Using M-x company-en-words-disable RET, to disable English word company.
+
+You also can using (add-to-list 'company-backends 'company-en-words) in the .emacs after load to enable it in all mode. 
+
+But, because this backend will make a lot of other backends cannot work, so it is not recommanded.
 
 ## Attached files
 
