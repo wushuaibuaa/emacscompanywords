@@ -22,7 +22,7 @@ Using M-x company-en-words-disable RET, to disable English word company.
 
 You also can using (add-to-list 'company-backends 'company-en-words) in the .emacs after load to enable it in all mode. 
 
-But, because this backend will make a lot of other backends cannot work, so it is not recommanded.
+But, because this backend will make a lot of other backends cannot work, so it is not recommended.
 
 ## Attached files
 
