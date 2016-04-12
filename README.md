@@ -2,10 +2,11 @@
 
 ## Description
 A lisp file using company-mode to complete english words.
+An other version can complete the english words and display the meaning in Chinease.
 
 It defines a words constant list by 'defconst'. 
 And define a company backend to complete English words.
-It only using company mode.
+It only needs company mode.
 Do not require ispell or orther program.
 
 ## Useage
